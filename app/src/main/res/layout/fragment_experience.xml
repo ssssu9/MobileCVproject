@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3C96BE"
+    android:orientation="vertical"
+    tools:context=".Fragment_profile" >
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D7E1E6"
+        android:gravity="center_horizontal|center_vertical"
+        android:padding="20dip"
+        android:text="RESUME"
+        android:textColor="#3C96BE"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#73A0B4"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="EXPERIENCE"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:typeface="monospace" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="\nEXPERIENCE"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                android:typeface="monospace" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text=" - 2018.03.05 ~ 2018.11.14\n
+전북대학교 IT정보공학과 학생회 문화부 차장\n
+>> 학과 MT 준비\n
+>> 공학체전 입장식 준비\n
+>> 시험기간 간식사업 준비\n\n
+- 2020.07.07 ~ 2020.08.31\n
+(주)에픽모바일 인턴(현장실습) 근무\n
+>> Big data 구축을 위한 metadata 수집\n
+>> JavaScript를 활용한 API server 개발\n"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:typeface="monospace" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="PARTICIPATE IN CONTEST"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                android:typeface="monospace" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text=" - 2020.05.12 ~ 2020.07.05\n
+GIGDC 2020 게임 개발 공모전 참여\n
+>> 장르 : 추리 어드벤처 RPG(3인칭 탑뷰로 제작)\n
+>> 아트 : 도트 - 레드로 감성 유발\n
+>> 각 사건을 단서 및 인물 간 대화를 통해 해결\n\n
+- 2020.10.27 ~ 2020.11.16\n
+2020 아이디어 경진대회 참여\n
+>> 전북대학교 링크플러스사업단 주최\n
+>> 코로나19 예방을 위한 밀폐된 실내공간 소독고안\n\n
+- 2020.11.20\n
+프로그래밍 경진대회 ITCPC 참여\n
+>> 전북대학교 IT정보공학과 주관\n"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:typeface="monospace" />
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#73A0B4"
+                android:drawableLeft="?attr/actionModeCloseDrawable"
+                android:text="BACK" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
